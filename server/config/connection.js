@@ -10,7 +10,7 @@
 // module.exports = mongoose.connection;
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/salty-chamber-17710',
+  process.env.MONGODB_URI || 'mongodb://localhost:27017/googlebooks',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
